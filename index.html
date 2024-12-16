@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - Pentesting Tools</title>
+    <style>
+        body{
+            background-image: url("{{ url_for('static', filename='security-4700815_1920.jpg') }}");
+        }
+        .container{
+            width: 40%;
+        }
+        .container p a{
+            display: inline-block;
+            text-decoration: none;
+            margin: 0 auto;
+            padding: 10px 20px 10px 20px;
+            background-color: rgb(255, 102, 0);
+            border-radius: 5%;
+            color: white;
+        }
+        .container p{
+            position: relative;
+            top: 25vh;
+            text-align: center;
+            margin-left: 10%;
+            color: white;
+            width: 80%;
+        }
+        .container h1{
+            color: white;
+            text-align: center;
+            font-size: 48px;
+            font-family: 'Bree Serif', serif;
+            font-weight: 400;
+            position: relative;
+            top: 25vh;
+        }
+        .container{
+            width: 100%;
+            height: 100%;            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Pentesting Tools Web App</h1>
+        <p>This application provides tools for port scanning, vulnerability scanning, password generation, and directory brute-forcing. <a href="/tools" class="btn btn-primary">Go to Tools</a></p>
+    </div>
+</body>
+</html>
